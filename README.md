@@ -1,11 +1,11 @@
 file structure
-├── node_module              # Compiled files (alternatively `dist`)
-├── public                   # Documentation files (alternatively `doc`)
-├── src                      # Source files (alternatively `lib` or `app`)
-       ├── components         # components file (java file)
-├── gitignore                # avoids pushing unimportant files to github
-├── package-lock.json        # package files (holds metadata relevant to the project)
-└── package.json             # package files (holds metadata relevant to the project)
+├── node_module              # Compiled files (alternatively `dist`)<br>
+├── public                   # Documentation files (alternatively `doc`)<br>
+├── src                      # Source files (alternatively `lib` or `app`)<br>
+       ├── components         # components file (java file)<br>
+├── gitignore                # avoids pushing unimportant files to github<br>
+├── package-lock.json        # package files (holds metadata relevant to the project)<br>
+└── package.json             # package files (holds metadata relevant to the project)<br>
 └── README.md
 
 
