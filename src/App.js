@@ -20,7 +20,7 @@ function App() {
         yearDates.push(year.Year);
       });
       setImage(
-        `https://image-charts.com/chart?cht=bvo&chs=700x550&chd=a:${yearPopulations.join(
+        `https://image-charts.com/chart?cht=bvo&chs=700x333&chd=a:${yearPopulations.join(
           ","
         )}&chan=1000,easeInCubic&chxt=x,y&chg=20,20&chxl=0:|${yearDates.join(
           "|"
@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <img src={image} alt="DataUSA Chart" />
+      <img  src={image} alt="DataUSA Chart" />
     </div>
   );
 }

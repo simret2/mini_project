@@ -13,8 +13,11 @@
   width: 100%;
   min-height: 100vh;
   height: 100%;
+ 
+ 
 }
 
 .head {
+  display: flex;
   text-align: center;
 }
